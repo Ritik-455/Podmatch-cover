@@ -70,6 +70,15 @@
   margin-top: 24px !important;
 }
 
+.prev_svg,.next_svg{
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+
+.prev_svg:hover,.next_svg:hover{
+  transform: scale(0.9);
+}
+
 @media (min-width: 1200px) {
   .inspiration_card {
     padding: 0px 12px;
