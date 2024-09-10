@@ -17,6 +17,7 @@
 
   /************************************* line height ************************************/
   --lh-110: 110%;
+  --lh-115: 115%;
   --lh-125: 125%;
   --lh-130: 130%;
   --lh-150: 150%;
@@ -46,50 +47,67 @@
 .color_primary {
   color: var(--primary-color);
 }
+
 .color_secondary {
   color: var(--secondary-color);
 }
+
 .color_light_black {
   color: var(--light-black);
 }
+
 .color_white {
   color: var(--white-color);
 }
+
 .color_black {
   color: var(--black-color);
 }
+
 .bg_violet {
   background-color: var(--violet-color);
 }
 
-.fs-sm {
+.fs_sm {
   font-size: var(--fs-sm);
 }
-.fs-md {
+
+.fs_md {
   font-size: var(--fs-md);
 }
-.fs-lg {
+
+.fs_lg {
   font-size: var(--fs-lg);
 }
-.fs-xl {
+
+.fs_xl {
   font-size: var(--fs-xl);
 }
-.fs-2xl {
+
+.fs_2xl {
   font-size: var(--fs-2xl);
 }
-.fs-3xl {
+
+.fs_3xl {
   font-size: var(--fs-3xl);
 }
 
-.lh-110 {
+.lh_110 {
   line-height: var(--lh-110);
 }
-.lh-125 {
+
+.lh_115 {
+  line-height: var(--lh-115);
+}
+
+.lh_125 {
   line-height: var(--lh-125);
 }
-.lh-130 {
+
+.lh_130 {
   line-height: var(--lh-130);
 }
-.lh-150 {
+
+.lh_150 {
   line-height: var(--lh-150);
 }
