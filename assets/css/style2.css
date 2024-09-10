@@ -11,19 +11,20 @@
 /********************************************* business code **************************************** */
 
 .business_inspiration {
-  padding-top: 76px;
-  padding-bottom: 160px;
+  padding-bottom: 160px !important;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .nav-pills .nav-link {
-  padding: 12px 32px;
+  padding: 11px 32px;
   color: var(--light-black);
 }
 
 .nav-pills .nav-link.active {
-  border: 1px solid var( --violet-color) !important;
+  border: 1px solid var(--violet-color) !important;
   background: transparent !important;
-  color: var( --violet-color) !important;
+  color: var(--violet-color) !important;
   border-radius: 57px !important;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .tab-content {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .nav_parent {
@@ -41,7 +42,7 @@
 }
 
 .nav {
-  padding: 10px !important;
+  padding: 5px 10px !important;
 }
 
 .nav_parent::-webkit-scrollbar {
@@ -60,6 +61,7 @@
 .card_box {
   box-shadow: 0px 5px 29.5px -10px #00000026;
   border-radius: 16px;
+  background-color: var(--white-color);
 }
 
 .card_txt {
@@ -70,13 +72,36 @@
   margin-top: 24px !important;
 }
 
-.prev_svg,.next_svg{
+.prev_svg,
+.next_svg {
   transition: all 200ms linear;
   cursor: pointer;
 }
 
-.prev_svg:hover,.next_svg:hover{
+.prev_svg:hover,
+.next_svg:hover {
   transform: scale(0.9);
+}
+
+.common_card_img {
+  height: 252px;
+}
+
+.gradient_border {
+  padding: 1px;
+  margin: -1px;
+  border-radius: 16px;
+  transition: all 200ms linear;
+}
+
+.gradient_border:hover {
+  background: linear-gradient(
+    99.76deg,
+    rgba(0, 185, 255, 0.76) 34.35%,
+    rgba(111, 105, 242, 0.76) 64.82%,
+    rgba(16, 182, 208, 0.76) 88.28%
+  );
+  box-shadow: 0px 2px 29.5px 1px #6f69f28f;
 }
 
 @media (min-width: 1200px) {
@@ -105,11 +130,21 @@
   .business_inspiration {
     padding: 0 24px;
   }
+
+  .common_card_img {
+    height: 299px;
+  }
+  .business_inspiration {
+    padding-bottom: 100px !important;
+  }
 }
 
 @media (max-width: 767.99px) {
   .common_card {
     margin-top: 24px !important;
+  }
+  .business_inspiration {
+    padding-bottom: 80px !important;
   }
 }
 
@@ -119,6 +154,9 @@
   }
   .tabs_parent {
     gap: 10px;
+  }
+  .business_inspiration {
+    padding-bottom: 64px !important;
   }
 }
 
