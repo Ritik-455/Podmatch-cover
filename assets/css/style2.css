@@ -85,6 +85,7 @@
 
 .common_card_img {
   height: 252px;
+  object-fit: cover;
 }
 
 .gradient_border {
@@ -92,6 +93,10 @@
   margin: -1px;
   border-radius: 16px;
   transition: all 200ms linear;
+}
+
+.card_txt{
+  line-clamp: 3;
 }
 
 .gradient_border:hover {
@@ -158,11 +163,22 @@
   .business_inspiration {
     padding-bottom: 64px !important;
   }
+  .common_card_img {
+    height: 343px;
+  }
+  .common_inspire_svg svg {
+    width: 28px !important;
+    height: 28px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
   .inspiration_card {
     padding: 0 8px !important;
     margin-top: 16px !important;
+  }
+
+  .tabs_parent {
+    margin-bottom: 11px;
   }
 }
