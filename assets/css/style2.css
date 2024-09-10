@@ -66,6 +66,10 @@
   padding: 12px 17px;
 }
 
+.inspiration_card {
+  margin-top: 24px !important;
+}
+
 @media (min-width: 1200px) {
   .inspiration_card {
     padding: 0px 12px;
@@ -104,10 +108,14 @@
   .business_inspiration {
     padding: 0 16px;
   }
+  .tabs_parent {
+    gap: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
   .inspiration_card {
     padding: 0 8px !important;
+    margin-top: 16px !important;
   }
 }

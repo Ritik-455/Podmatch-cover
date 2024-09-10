@@ -100,7 +100,7 @@ const renderCards = (category) => {
     .filter((card) => category === "All" || card.category === category)
     .map((card, index) => {
       return `
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 inspiration_card mt-4" key=${index}>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 inspiration_card" key=${index}>
         <div class="card_box overflow-hidden h-100">
           <img src="${card.imgSrc}" class="w-100" alt="${card.altText}">
           <div class="card_txt lh_110 text-center fw-medium color_secondary">
