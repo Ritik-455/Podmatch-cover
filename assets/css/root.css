@@ -6,6 +6,9 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --violet-color: #6f69f2;
+  --light-white: #FEFEFE;
+  --light-grey: #DEDDED;
+
 
   /************************************* font size **************************************/
   --fs-sm: 14px;
@@ -45,6 +48,10 @@
 
 .color_primary {
   color: var(--primary-color);
+}
+
+.color_light_white {
+  color: var(--light-white);
 }
 
 .color_secondary {
@@ -105,4 +112,48 @@
 
 .lh_150 {
   line-height: var(--lh-150);
+}
+
+@media (max-width:1200px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-2xl: 40px;
+    --fs-3xl: 44px;
+  }
+}
+
+@media (max-width:1024px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-2xl: 40px;
+    --fs-3xl: 44px;
+  }
+}
+
+@media (max-width:768px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 22px;
+    --fs-2xl: 36px;
+    --fs-3xl: 44px;
+  }
+}
+
+@media (max-width:576px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 14px;
+    --fs-xl: 20px;
+    --fs-2xl: 26px;
+    --fs-3xl: 32px;
+  }
 }
