@@ -21,9 +21,9 @@
 }
 
 .nav-pills .nav-link.active {
-  border: 1px solid #6f69f2 !important;
+  border: 1px solid var( --violet-color) !important;
   background: transparent !important;
-  color: #6f69f2 !important;
+  color: var( --violet-color) !important;
   border-radius: 57px !important;
 }
 
