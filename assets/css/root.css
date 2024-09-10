@@ -1,0 +1,108 @@
+:root {
+  /************************************* colors ****************************************/
+  --primary-color: #4d4d4d;
+  --secondary-color: #585858;
+  --light-black: #7e7e7e;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --violet-color: #6f69f2;
+
+  /************************************* font size **************************************/
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 24px;
+  --fs-2xl: 40px;
+  --fs-3xl: 44px;
+
+  /************************************* line height ************************************/
+  --lh-110: 110%;
+  --lh-125: 125%;
+  --lh-130: 130%;
+  --lh-150: 150%;
+}
+
+/************************************* font family **************************************/
+@font-face {
+  font-family: "graphic";
+  src: url("../fonts/graphik-regular.OTF");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "graphic";
+  src: url("../fonts/graphik-medium.OTF");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "graphic";
+  src: url("../fonts/graphik-semibold.OTF");
+  font-weight: 600;
+}
+
+/************************************* define all classes ********************************/
+
+.color_primary {
+  color: var(--primary-color);
+}
+
+.color_secondary {
+  color: var(--secondary-color);
+}
+
+.color_light_black {
+  color: var(--light-black);
+}
+
+.color_white {
+  color: var(--white-color);
+}
+
+.color_black {
+  color: var(--black-color);
+}
+
+.bg_violet {
+  background-color: var(--violet-color);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_md {
+  font-size: var(--fs-md);
+}
+
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+
+.lh_110 {
+  line-height: var(--lh-110);
+}
+
+.lh_125 {
+  line-height: var(--lh-125);
+}
+
+.lh_130 {
+  line-height: var(--lh-130);
+}
+
+.lh_150 {
+  line-height: var(--lh-150);
+}

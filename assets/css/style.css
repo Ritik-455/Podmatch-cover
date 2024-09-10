@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none !important;
+    font-family: "graphic";
 }
 
 /*********************spacing************************/
@@ -146,3 +147,5 @@ ul {
         max-width: 1164px !important;
     }
 }
+
+
