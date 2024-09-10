@@ -7,3 +7,68 @@
   text-decoration: none !important;
   font-family: "graphic";
 }
+
+/*  */
+
+.business_inspiration {
+  padding-top: 76px;
+  padding-bottom: 160px;
+}
+
+.nav-pills .nav-link {
+  padding: 12px 32px;
+  color: var(--light-black);
+}
+
+.nav-pills .nav-link.active {
+  border: 1px solid #6f69f2 !important;
+  background: transparent !important;
+  color: #6f69f2 !important;
+  border-radius: 57px !important;
+}
+
+.nav-pills .nav-link:hover {
+  box-shadow: 0px 0px 5px;
+  border-radius: 57px;
+}
+
+.tab-content {
+  margin-top: 32px;
+}
+
+.nav_parent {
+  max-width: 904px;
+}
+
+.nav {
+  padding: 10px !important;
+}
+
+.nav_parent::-webkit-scrollbar {
+  display: none;
+}
+
+.common_inspire_svg {
+  border-radius: 50%;
+  box-shadow: 0px 4px 24px 0px #a6a6a659;
+}
+
+.tabs_parent {
+  gap: 18px;
+}
+
+.card_box {
+  box-shadow: 0px 5px 29.5px -10px #00000026;
+  border-radius: 16px;
+}
+
+.card_txt{
+  padding: 12px 17px;
+}
+
+@media (min-width: 992px) {
+  .inspiration_card {
+    padding: 0px 12px;
+    width: 20% !important;
+  }
+}
