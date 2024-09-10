@@ -95,44 +95,6 @@ const cardData = [
   },
 ];
 
-// Helper function to determine class based on index
-const getCardClass = (index) => {
-  switch (index) {
-    case 0:
-      return "first_card";
-    case 1:
-      return "second_card";
-    case 2:
-      return "third_card";
-    case 3:
-      return "fourth_card";
-    case 4:
-      return "fifth_card";
-    case 5:
-      return "common_card first_card";
-    case 6:
-      return "common_card second_car";
-    case 7:
-      return "common_card third_card";
-    case 8:
-      return "common_card fourth_car";
-    case 9:
-      return "common_card fifth_card";
-    case 10:
-      return "common_card first_card";
-    case 11:
-      return "common_card second_car";
-    case 12:
-      return "common_card third_card";
-    case 13:
-      return "common_card fourth_car";
-    case 14:
-      return "common_card fifth_card";
-    default:
-      return "";
-  }
-};
-
 const renderCards = (category) => {
   return cardData
     .filter((card) => category === "All" || card.category === category)

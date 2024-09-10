@@ -8,7 +8,7 @@
   font-family: "graphic";
 }
 
-/*  */
+/********************************************* business code **************************************** */
 
 .business_inspiration {
   padding-top: 76px;
@@ -33,7 +33,7 @@
 }
 
 .tab-content {
-  margin-top: 32px;
+  margin-top: 8px;
 }
 
 .nav_parent {
@@ -89,33 +89,18 @@
 }
 
 @media (max-width: 991.99px) {
-  .fifth_card,
-  .fourth_card {
-    margin-top: 16px !important;
-  }
-  .common_card {
-    margin-top: 16px !important;
-  }
   .business_inspiration {
     padding: 0 24px;
   }
 }
 
 @media (max-width: 767.99px) {
-  .third_card,
-  .fifth_card,
-  .fourth_card {
-    margin-top: 24px !important;
-  }
   .common_card {
     margin-top: 24px !important;
   }
 }
 
 @media (max-width: 575.99px) {
-  .second_card {
-    margin-top: 24px !important;
-  }
   .business_inspiration {
     padding: 0 16px;
   }
