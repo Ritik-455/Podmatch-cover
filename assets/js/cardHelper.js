@@ -95,55 +95,19 @@ const cardData = [
   },
 ];
 
-// Helper function to determine class based on index
-const getCardClass = (index) => {
-  switch (index) {
-    case 0:
-      return "first_card";
-    case 1:
-      return "second_card";
-    case 2:
-      return "third_card";
-    case 3:
-      return "fourth_card";
-    case 4:
-      return "fifth_card";
-    case 5:
-      return "common_card first_card";
-    case 6:
-      return "common_card second_car";
-    case 7:
-      return "common_card third_card";
-    case 8:
-      return "common_card fourth_car";
-    case 9:
-      return "common_card fifth_card";
-    case 10:
-      return "common_card first_card";
-    case 11:
-      return "common_card second_car";
-    case 12:
-      return "common_card third_card";
-    case 13:
-      return "common_card fourth_car";
-    case 14:
-      return "common_card fifth_card";
-    default:
-      return "";
-  }
-};
-
 const renderCards = (category) => {
   return cardData
     .filter((card) => category === "All" || card.category === category)
     .map((card, index) => {
       return `
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 inspiration_card mt-4" key=${index}>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 inspiration_card" key=${index}>
+      <div class="gradient_border h-100">
         <div class="card_box overflow-hidden h-100">
-          <img src="${card.imgSrc}" class="w-100" alt="${card.altText}">
+          <img src="${card.imgSrc}" class="common_card_img w-100" alt="${card.altText}">
           <div class="card_txt lh_110 text-center fw-medium color_secondary">
             ${card.description}
           </div>
+        </div>
         </div>
       </div>
     `;
